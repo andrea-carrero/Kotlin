@@ -32,6 +32,11 @@ class Operaciones(val A:Int, val B:Int, val C:Int) {
         println("El resultado es: $resultado")
         //println(A * B * C)
     }
+
+    fun division() {
+        val division = A / B
+        println("El resultado es: $division")
+    }
 }
 
 var numeroUno = 4
